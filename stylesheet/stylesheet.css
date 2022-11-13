@@ -1,0 +1,16 @@
+body{
+    background-color: #F9F3EC;
+}
+
+.head{
+    text-align: center;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    color: #4B7171;
+}
+
+.l1{
+    list-style: none;
+}
