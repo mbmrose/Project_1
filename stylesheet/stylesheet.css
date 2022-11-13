@@ -1,9 +1,27 @@
+
 body{
     background-color: #F9F3EC;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+aside{
+    background-color: antiquewhite;
+}
+
+.grid2{
+    position: relative;
+}
+
 .head{
     text-align: center;
+}
+
+.l2{
+    list-style: square;
 }
 
 .text{
@@ -11,6 +29,25 @@ body{
     color: #4B7171;
 }
 
+
+.ul1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 .l1{
+    padding: 15px;
+    text-align: right;
     list-style: none;
+}
+
+.t2{
+    color: lightslategray;
+}
+
+#notebox{
+    margin: 15px;
+    width: 95%;
+    height: 100px;
 }
