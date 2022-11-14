@@ -2,7 +2,7 @@
 body{
     background-color: #ece6dc;
     margin: 0%;
-    border: 0%;
+    border: 0;
     padding: 0%;
 }
 
@@ -33,7 +33,7 @@ aside{
 
 .text{
     font-family: 'Nunito', sans-serif;
-    color: #438591;
+    color: #15515B;
 }
 
 h2{
