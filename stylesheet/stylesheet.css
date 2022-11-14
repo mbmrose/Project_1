@@ -1,15 +1,20 @@
 
 body{
-    background-color: #F9F3EC;
+    background-color: #ece6dc;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
 }
 
 aside{
-    background-color: antiquewhite;
+    background-color:  #F9F3EC;
+    position: relative;
 }
 
 .grid2{
@@ -22,13 +27,17 @@ aside{
 
 .l2{
     list-style: square;
+    padding: 5px;
 }
 
 .text{
-    font-family: 'Montserrat', sans-serif;
-    color: #4B7171;
+    font-family: 'Nunito', sans-serif;
+    color: #438591;
 }
 
+h2{
+    text-align: center;
+}
 
 .ul1{
     display: flex;
@@ -46,8 +55,46 @@ aside{
     color: lightslategray;
 }
 
+textarea::placeholder{
+    font-size: 18px;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif
+}
+
 #notebox{
     margin: 15px;
-    width: 95%;
-    height: 100px;
+    width: 97%;
+    height: 250px;
+    background-color: #FAF9F8;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: #7DC8D5;
+    font-size: 18px;
+    resize: none;
+}
+
+.button1{
+    width: 90px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.button2{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    justify-content: right;
+}
+
+.button3{
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.button4{
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
 }
