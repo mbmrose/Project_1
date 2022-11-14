@@ -15,6 +15,7 @@ main{
 aside{
     background-color:  #F9F3EC;
     position: relative;
+    margin-bottom: -55%;
 }
 
 .grid2{
@@ -80,6 +81,7 @@ textarea::placeholder{
     border-style: none;
     background-color: #5394A0;
     color: white;
+    cursor: pointer;
 }
 
 .button2{
@@ -91,6 +93,7 @@ textarea::placeholder{
     border-style: none;
     background-color: #6F6A87;
     color: white;
+    cursor: pointer;
 }
 
 .buttons{
@@ -105,7 +108,8 @@ textarea::placeholder{
     margin: 10px;
     border-style: none;
     color: white;
-    background-color:#5394A0;;
+    background-color:#5394A0;
+    cursor: pointer;
 }
 
 .button4{
@@ -117,9 +121,23 @@ textarea::placeholder{
     border-style: none;
     background-color: rgb(211, 99, 99);
     color: white;
+    cursor: pointer;
 }
 
 footer{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
+
+.linkedin{
+    background-color: #ece6dc;
+    border-style: none;
+    cursor: pointer;
+}
+
+.internet{
+    background-color: #ece6dc;
+    border-style: none;
+    cursor: pointer;
+}
+
