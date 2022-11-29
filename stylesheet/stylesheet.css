@@ -1,8 +1,10 @@
 body {
+  margin: 0%;
   border: 0;
   padding: 0%;
   background-color: #ece6dc;
 }
+
 
 main {
   display: grid;
@@ -76,27 +78,27 @@ textarea::placeholder {
   resize: none;
 }
 
-button{
-  border-radius: 15px;
-  border-style: none;
-  color: white;
-  cursor: pointer;
-  display: flex;
-}
-
 .button1 {
   width: 100px;
   height: 60px;
+  border-radius: 15px;
   margin: 20px;
+  border-style: none;
   background-color: #5394a0;
+  color: white;
+  cursor: pointer;
 }
 
 .button2 {
   width: 110px;
   height: 60px;
+  border-radius: 15px;
   margin: 20px;
-  justify-content: right;
+  float: right;
+  border-style: none;
   background-color: #6f6a87;
+  color: white;
+  cursor: pointer;
 }
 
 .buttons {
@@ -107,31 +109,46 @@ button{
 .button3 {
   width: 70px;
   height: 60px;
+  border-radius: 15px;
   margin: 10px;
+  border-style: none;
+  color: white;
   background-color: #5394a0;
+  cursor: pointer;
 }
 
 .button4 {
   width: 90px;
   height: 60px;
+  border-radius: 15px;
   margin: 10px;
   margin-right: 20px;
+  border-style: none;
   background-color: rgb(211, 99, 99);
+  color: white;
+  cursor: pointer;
 }
 
 footer {
   text-align: left;
   font-size: 20px;
   padding: 20px;
+  margin-bottom: 11%;
 }
 
 .linkedin {
   background-color: #ece6dc;
+  border-style: none;
+  cursor: pointer;
 }
 
 .internet {
   background-color: #ece6dc;
+  border-style: none;
+  cursor: pointer;
 }
+
+
 
 @media (min-width: 600px) {
   .head {
@@ -149,8 +166,16 @@ footer {
     margin: 15px;
     width: 97%;
     height: 250px;
+    background-color: #f9f3ec;
+    border-radius: 3px;
     border-width: 4px;
+    border-color: #7dc8d5;
     font-size: 18px;
+    resize: none;
+  }
+  textarea::placeholder {
+    font-size: 18px;
+    font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
   }
   footer {
     text-align: center;
