@@ -129,14 +129,10 @@ footer {
 
 .linkedin {
   background-color: #ece6dc;
-  border-style: none;
-  cursor: pointer;
 }
 
 .internet {
   background-color: #ece6dc;
-  border-style: none;
-  cursor: pointer;
 }
 
 @media (min-width: 600px) {
