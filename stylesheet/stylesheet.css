@@ -155,16 +155,8 @@ footer {
     margin: 15px;
     width: 97%;
     height: 250px;
-    background-color: #f9f3ec;
-    border-radius: 3px;
     border-width: 4px;
-    border-color: #7dc8d5;
     font-size: 18px;
-    resize: none;
-  }
-  textarea::placeholder {
-    font-size: 18px;
-    font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
   }
   footer {
     text-align: center;
