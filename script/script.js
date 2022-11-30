@@ -103,7 +103,7 @@ function textclearing(){
 
 
 
-let notesArray = [{title : "note 1", body: "This is my first note"}]
+let notesArray = [{title : "note 1", body: "This is my first note"}, {title : "note 2", body: "This is my second note"}]
 
 
 function notelist(){
@@ -137,9 +137,9 @@ const showNote = document.querySelector(".mynotes");
 showNote.addEventListener("click", searchNotes);
 
 function searchNotes(event){
-    // console.log(event.target.textContent)
+    // console.log(event.target.textContent);
     for(let item of notesArray){
-        if (event.target.textContent === item.title);{
+        if (event.target.textContent === item.title){
         document.getElementById("text").value = item.body;
     }
     }
