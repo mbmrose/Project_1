@@ -42,8 +42,8 @@ function Clicking(event){
         notelist();
     }
     else if(event.target.textContent === "Cancel"){
-        cancelbtn();
         console.log("Cancel Button Clicked");
+        cancelbtn();
     }
 }
 
@@ -103,7 +103,8 @@ function textclearing(){
 
 
 
-let notesArray = [{title : "Note One", body: "This is my first note"}]
+let notesArray = [{title : "note 1", body: "This is my first note"}]
+
 
 function notelist(){
     const noteTitle = prompt("Enter a note title...");
@@ -114,19 +115,32 @@ function notelist(){
         body: noteInput.value,
     }
 
-    noteTitle.value = ""
-    noteInput.value = ""
+    noteTitle.value = "";
+    noteInput.value = "";
 
     addToList(notes);
 
     notesArray.push(notes);
 
-    console.log(notesArray)
+    console.log(notesArray);
 }
 
 function addToList(notes){
     const myNotes = document.querySelector(".notes");
     const newNote = document.createElement("li");
         newNote.textContent = `${notes.title}`;
-        myNotes.appendChild(newNote)
+        myNotes.appendChild(newNote);
+}
+
+
+const showNote = document.querySelector(".mynotes");
+showNote.addEventListener("click", searchNotes);
+
+function searchNotes(event){
+    // console.log(event.target.textContent)
+    for(let item of notesArray){
+        if (event.target.textContent === item.title);{
+        document.getElementById("text").value = item.body;
+    }
+    }
 }
