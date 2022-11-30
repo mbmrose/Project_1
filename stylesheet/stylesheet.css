@@ -77,30 +77,30 @@ textarea::placeholder {
   resize: none;
 }
 
-.button1 {
-  width: 100px;
-  height: 60px;
-  border-radius: 15px;
-  margin: 20px;
+button{
   border-style: none;
-  background-color: #5394a0;
   color: white;
   cursor: pointer;
+  border-radius: 15px;
+  height: 60px;
+}
+
+.button1 {
+  width: 100px;
+  margin: 20px;
+  color: white;
+  background-color: #5394a0;
 }
 
 .button2 {
   width: 110px;
-  height: 60px;
-  border-radius: 15px;
   margin: 20px;
-  border-style: none;
-  background-color: #6f6a87;
   color: white;
-  cursor: pointer;
+  background-color: #6f6a87;
 }
 
 .button1-2{
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -111,32 +111,21 @@ textarea::placeholder {
 
 .button3 {
   width: 70px;
-  height: 60px;
-  border-radius: 15px;
   margin: 10px;
-  border-style: none;
-  color: white;
   background-color: #5394a0;
-  cursor: pointer;
 }
 
 .button4 {
   width: 90px;
-  height: 60px;
-  border-radius: 15px;
   margin: 10px;
   margin-right: 20px;
-  border-style: none;
   background-color: rgb(211, 99, 99);
-  color: white;
-  cursor: pointer;
 }
 
 footer {
   text-align: left;
   font-size: 20px;
   padding: 20px;
-  /* margin-bottom: 11%; */
 }
 
 .linkedin {
