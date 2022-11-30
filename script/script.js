@@ -130,6 +130,7 @@ function addToList(notes){
     const newNote = document.createElement("li");
         newNote.textContent = `${notes.title}`;
         myNotes.appendChild(newNote);
+        newNote.classList.add("shape")
 }
 
 

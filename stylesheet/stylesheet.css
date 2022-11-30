@@ -216,3 +216,7 @@ footer {
 .hideitem{
   display: none;
 }
+
+.shape{
+  list-style: square;
+}
