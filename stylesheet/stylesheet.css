@@ -3,22 +3,26 @@ body {
   border: 0;
   padding: 0%;
   background-color: #ece6dc;
+  height: 100vh;
+  color: #15515b;
+  font-family: "Nunito", sans-serif;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  height: 100vh;
+
 }
 
 aside {
   background-color: #f9f3ec;
-  position: relative;
   width: 100%;
   height: 100vh;
 }
 
-.grid2 {
-  position: relative;
+.asidecolor{
+  background-color: #141d44;
 }
 
 .head {
@@ -31,10 +35,6 @@ aside {
   padding: 5px;
 }
 
-.text {
-  font-family: "Nunito", sans-serif;
-  color: #15515b;
-}
 
 h2 {
   text-align: left;
@@ -55,19 +55,15 @@ h2 {
   list-style: none;
 }
 
-.t2 {
-  color: lightslategray;
-}
-
 textarea::placeholder {
   font-size: 14px;
   font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
 }
 
-#notebox {
+.notebox {
   margin: 20px;
   width: 95%;
-  height: 100px;
+  height: 250px;
   padding: 5px;
   background-color: #f9f3ec;
   border-radius: 3px;
@@ -77,27 +73,32 @@ textarea::placeholder {
   resize: none;
 }
 
-.button1 {
-  width: 100px;
-  height: 60px;
-  border-radius: 15px;
-  margin: 20px;
+
+button{
   border-style: none;
-  background-color: #5394a0;
   color: white;
   cursor: pointer;
+  border-radius: 15px;
+  height: 60px;
+}
+
+.button1 {
+  width: 100px;
+  margin: 20px;
+  color: white;
+  background-color: #5394a0;
 }
 
 .button2 {
   width: 110px;
-  height: 60px;
-  border-radius: 15px;
   margin: 20px;
-  float: right;
-  border-style: none;
-  background-color: #6f6a87;
   color: white;
-  cursor: pointer;
+  background-color: #6f6a87;
+}
+
+.button1-2{
+  display: flex;
+  justify-content: space-between;
 }
 
 .buttons {
@@ -107,32 +108,21 @@ textarea::placeholder {
 
 .button3 {
   width: 70px;
-  height: 60px;
-  border-radius: 15px;
   margin: 10px;
-  border-style: none;
-  color: white;
   background-color: #5394a0;
-  cursor: pointer;
 }
 
 .button4 {
   width: 90px;
-  height: 60px;
-  border-radius: 15px;
   margin: 10px;
   margin-right: 20px;
-  border-style: none;
   background-color: rgb(211, 99, 99);
-  color: white;
-  cursor: pointer;
 }
 
 footer {
   text-align: left;
   font-size: 20px;
   padding: 20px;
-  margin-bottom: 11%;
 }
 
 .linkedin {
@@ -147,6 +137,8 @@ footer {
   cursor: pointer;
 }
 
+
+
 @media (min-width: 600px) {
   .head {
     text-align: center;
@@ -159,10 +151,10 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
   }
-  #notebox {
+  .notebox {
     margin: 15px;
     width: 97%;
-    height: 250px;
+    height: 30%;
     background-color: #f9f3ec;
     border-radius: 3px;
     border-width: 4px;
@@ -170,12 +162,61 @@ footer {
     font-size: 18px;
     resize: none;
   }
-  textarea::placeholder {
-    font-size: 18px;
-    font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", serif;
-  }
+
   footer {
     text-align: center;
     font-size: 25px;
   }
+}
+
+.bgcolor{
+  background-color: #10122F;
+  color: #ECE9F7;
+}
+
+.textcolor{
+  color: #ECE9F7;
+}
+
+.noteboxcolor{
+  background-color: #141d44;
+  border-color: #8DE6F5;
+  color: white;
+}
+
+.lncolor{
+  background-color: #10122F;
+}
+
+.internetcolor{
+  background-color: #10122F;
+}
+
+.newbuttoncolor{
+  background-color: #77B4F1;
+  color: black;
+}
+
+.darkbutton{
+  background-color: #A086EB;
+  color: black;
+}
+
+.savecolor{
+  background-color: #77B4F1;
+  color: black;
+}
+
+.cancelcolor{
+  background-color: #C87FEE;
+  color: black;
+}
+
+
+.hideitem{
+  display: none;
+}
+
+.shape{
+  list-style: square;
 }
