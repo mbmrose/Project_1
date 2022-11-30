@@ -11,5 +11,6 @@ darkMode.addEventListener("click", function changeText(){
     }
 })
 
+
 document.body.classList.toggle("darkmode");
 
