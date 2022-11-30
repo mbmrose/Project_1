@@ -1,4 +1,13 @@
 document.body.addEventListener("click", Clicking)
+const asidebg = document.querySelector("aside");
+const newbutton = document.querySelector(".button1");
+const darkMode = document.querySelector(".button2");
+const savebutton = document.querySelector(".button3");
+const linkedin = document.querySelector(".linkedin");
+const internet = document.querySelector(".internet");
+const cancelbutton = document.querySelector(".button4");
+const notebox = document.querySelector(".notebox");
+const textColor = document.querySelector(".text");
 
 function Clicking(event){
     console.log("clicked", event.target.textContent);
@@ -13,26 +22,19 @@ function Clicking(event){
     }
     else if(event.target.textContent === "New Note"){
         console.log("New Note Clicked");
+        newbtn();
     }
     else if(event.target.textContent === "Save"){
         console.log("Save Button Clicked");
     }
     else if(event.target.textContent === "Cancel"){
+        cancelbtn();
         console.log("Cancel Button Clicked")
     }
 }
 
 
 // Makes Darkmode 
-const asidebg = document.querySelector("aside");
-const newbutton = document.querySelector(".button1");
-const darkMode = document.querySelector(".button2");
-const savebutton = document.querySelector(".button3");
-const linkedin = document.querySelector(".linkedin");
-const internet = document.querySelector(".internet");
-const cancelbutton = document.querySelector(".button4");
-const notebox = document.querySelector(".notebox");
-const textColor = document.querySelector(".text");
 
 function changebg(){
     document.body.classList.toggle("bgcolor");
@@ -57,6 +59,13 @@ darkMode.addEventListener("click", function changeText(){
         darkMode.textContent = initialText;
     }
 })
+
+function cancelbtn(){
+    cancelbutton.classList.add("hideitem");
+    savebutton.classList.add("hideitem");
+    notebox.classList.add("hideitem");
+}
+
 
 
 
