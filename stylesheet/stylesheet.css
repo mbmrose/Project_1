@@ -170,3 +170,8 @@ footer {
     font-size: 25px;
   }
 }
+
+.bgcolor{
+  background-color: rgb(6, 1, 44);
+  color: #ece6dc;
+}
