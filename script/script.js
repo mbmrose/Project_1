@@ -23,6 +23,7 @@ function Clicking(event){
     else if(event.target.textContent === "New Note"){
         console.log("New Note Clicked");
         newbtn();
+        textclearing();
     }
     else if(event.target.textContent === "Save"){
         console.log("Save Button Clicked");
@@ -72,10 +73,6 @@ function newbtn(){
     notebox.classList.remove("hideitem");
 }
 
-
-
-
-
-
-
-
+function textclearing(){
+    notebox.value = ""
+}
