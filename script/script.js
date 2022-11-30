@@ -66,7 +66,11 @@ function cancelbtn(){
     notebox.classList.add("hideitem");
 }
 
-
+function newbtn(){
+    cancelbutton.classList.remove("hideitem");
+    savebutton.classList.remove("hideitem");
+    notebox.classList.remove("hideitem");
+}
 
 
 
